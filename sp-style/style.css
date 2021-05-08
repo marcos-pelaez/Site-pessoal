@@ -2,3 +2,35 @@
 Personal site Marcos Pelaez profile Webdesigner
 */
 
+/* General Settings */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: Poppins;
+    src: url('../sp-fonts/Poppins-Regular.ttf');
+}
+
+@font-face{
+    font-family: PoppinsMedium;
+    src: url('../sp-fonts/Poppins-Medium.ttf');
+}
+
+@font-face{
+    font-family: PoppinsBold;
+    src: url('../sp-fonts/Poppins-Bold.ttf');
+}
+
+body{ font-family: Poppins, sans-serif; font-size: 16px; }
+
+/* Principal div box */
+.principal {
+    max-width: 940px;
+    margin: 10px auto;
+    padding-bottom: 60vh;
+    border: 1px solid #000;
+}
