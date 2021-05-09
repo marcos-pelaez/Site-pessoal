@@ -31,6 +31,36 @@ body{ font-family: Poppins, sans-serif; font-size: 16px; }
 .principal {
     max-width: 940px;
     margin: 10px auto;
-    padding-bottom: 60vh;
-    border: 1px solid #000;
+}
+
+header{
+    display: flex;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.logo{
+    flex-grow: 1;
+}
+
+.contact{ 
+    flex-grow: 1;
+    text-align: center;
+    background-color: #f2f2f5;
+    font-size: 1.5em;
+}
+
+.name{
+    padding-top: 5%;
+}
+.email a:link, a:visited{
+    color:rgb(136, 136, 136);
+    text-decoration: none;
+}
+
+.email a:hover{
+    color:rgb(167, 174, 238)
+}
+
+.img-logo{
+    width: 150px;
 }
