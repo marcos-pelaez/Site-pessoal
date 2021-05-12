@@ -33,7 +33,7 @@ body{ font-family: Poppins, sans-serif; font-size: 16px; }
     margin: 10px auto;
 }
 
-/* Hader of the site */
+/* Header of the site */
 header{
     display: flex;
     border-bottom: 1px solid #e2e2e2;
@@ -71,7 +71,7 @@ main{
     display: flex; 
     position: relative;
     width: 100%;   
-    box-shadow: 2px 2px 2px 2px #eeeded;
+    box-shadow: 2px 2px 2px 3px #eeeded;
 }
 
 .fundo{
@@ -114,4 +114,57 @@ footer{
     text-align: center;
     font-size: 1.25em;
     border-bottom: 10px solid #eab56a;
+}
+
+@media (max-width: 550px){
+
+    /* Principal div box */
+    .principal {
+        margin:;
+    }
+
+    /* Header of the site */
+    header{
+        flex-direction: column;
+    }  
+    
+    .logo {
+        text-align: center;
+    }
+
+    .contact{ 
+        font-size: 1em;
+        padding-bottom: 15px;
+    }
+
+    /* Main box */
+    main{
+        flex-direction: column;
+    }
+
+    .fundo{
+        text-align: center;
+    }
+
+    .fundo>img{
+        width: 60%;
+    }
+
+    .texto>h1{
+        padding-top: 0;
+    }
+    
+    .texto>h2{
+        padding-top: 0px;
+    }
+    
+    .texto>p{
+        font-size: 1.5em;
+        padding: 0;
+    }
+
+    .footer{
+        padding: 0;
+    }
+
 }
