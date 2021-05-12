@@ -65,3 +65,53 @@ header{
 .img-logo{
     width: 150px;
 }
+
+/* Main box */
+main{
+    display: flex; 
+    position: relative;
+    width: 100%;   
+    box-shadow: 2px 2px 2px 2px #eeeded;
+}
+
+.fundo{
+    flex-grow: 1;
+}
+
+.fundo>img{
+    position: relative;
+    width: 100%;
+}
+.texto{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #eab56a;
+}
+
+.texto>h1{
+    padding-top: 20px;
+}
+
+.texto>h2{
+    padding-top: 20px;
+}
+
+.texto>p{
+    font-size: 1.5625em;
+    padding: 20px 0 20px 0;
+}
+
+/* Footer box */
+
+footer{
+    background-color: rgb(73, 73, 73);
+    color: #ffffff;
+    padding: 50px;
+    text-align: center;
+    font-size: 1.25em;
+    border-bottom: 10px solid #eab56a;
+}
